@@ -173,7 +173,7 @@ let stats = JSON.parse(localStorage.getItem('wordleElite_PRO_V3')) || {
     players: {}
 
 };
-if (!stats.players) stats.players = {};
+//if (!stats.players) stats.players = {};
 
 
 // Inicialización de seguridad para categorías
