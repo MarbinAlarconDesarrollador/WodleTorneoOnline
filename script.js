@@ -11,20 +11,23 @@ const wordSets = {
         "PERRO", "GATOS", "TIGRE", "CEBRA", "MOSCA", "PANDA", "PULPO", "GALLO", "CISNE",
         "CERDO", "RATON", "CABRA", "BURRO", "ZORRO", "OVEJA", "LLAMA", "KOALA", "LINCE",
         "ERIZO", "HIENA", "LOROS", "MONOS", "FOCAS", "PAVOS", "BAGRE", "PATOS", "GANSO",
-        "BUHOS", "COBRA", "SAPOS", "HURON", "LEMUR", "MORSA", "ORCAS", "PUMAS", "RANAS"
+        "BUHOS", "COBRA", "SAPOS", "HURON", "LEMUR", "MORSA", "ORCAS", "PUMAS", "RANAS",
+        "TAPIR", "CARPA", "TUCAN", "GECKO", "PULGA", "PIOJO", "SIMIO", "POTRO", "YEGUA", 
+        "LEONA"
     ],
     PAISES: [
         "CHILE", "CHINA", "JAPON", "RUSIA", "INDIA", "PARIS", "DUBAI", "QATAR", "COREA",
         "KENIA", "TOKIO", "NEPAL", "SIRIA", "SUDAN", "SAMOA", "TONGA", "HAITI", "LIBIA",
         "MALTA", "YEMEN", "GABON", "CONGO", "NAURU", "QUITO", "PEKIN", "MOSCU", "VIENA",
-        "PRAGA", "SUIZA", "MIAMI"
+        "PRAGA", "SUIZA", "MIAMI", "TUNEZ", "GALES", "MACAO", "DAKAR", "KABUL", "MILAN"
     ],
     NOMBRES: [
         "PABLO", "MARIA", "JESUS", "LAURA", "PEDRO", "DIEGO", "ELENA", "SOFIA", "LUCAS",
         "MATEO", "ANGEL", "JULIO", "ABRIL", "DARIO", "ESTER", "FELIX", "OSCAR", "RAMON",
         "RUBEN", "PAULA", "DIANA", "CLARA", "CARLA", "MARIO", "TOMAS", "JUANA", "LUCIA",
         "DAVID", "JORGE", "BRUNO", "NADIA", "IRENE", "NOEMI", "KEVIN", "CELIA", "CELIO",
-        "PAOLA", "FREDY", "MARTA"
+        "PAOLA", "FREDY", "MARTA", "JAIME", "SIMON", "LUISA", "JULIA", "ELIAS", "CESAR",
+        "ROCIO", "SONIA", "AARON"
     ],
     COMIDA: [
         "ARROZ", "CARNE", "POLLO", "HUEVO", "LIMON", "MANGO", "FRESA", "PASAS", "CHILE",
@@ -40,14 +43,17 @@ const wordSets = {
         "ABRIR", "BOTAR", "VOTAR", "PEDIR", "CREER", "COGER", "TOMAR", "DEJAR", "ECHAR",
         "GANAR", "GIRAR", "HACER", "IDEAR", "JURAR", "LAVAR", "MORIR", "PARAR", "PASAR",
         "PEGAR", "PODER", "ROBAR", "SABER", "TRAER", "MIRAN", "DICEN", "SABEN", "COMEN",
-        "AYUDA", "BAILE", "CANTO", "GRITO", "HABLA", "JUEGO", "NACER", "BESAR"
-
+        "AYUDA", "BAILE", "CANTO", "GRITO", "HABLA", "JUEGO", "NACER", "BESAR", "SANAR",
+        "LLORA", "CAZAR", "SUDAR", "SUMAR", "CORTA", "PEINA", "MATAR"
     ],
     INGLES: [
         "APPLE", "BREAD", "BACON", "DRINK", "SALAD", "GRAPE", "TIGER", "WHALE", "SNAKE",
         "SHEEP", "EAGLE", "WRITE", "SPEAK", "LAUGH", "DANCE", "LEARN", "CHAIR", "TABLE",
         "PHONE", "CLOCK", "LIGHT", "NOTES", "STONE", "STORY", "PARTY", "LUCKY", "CANDY",
-        "FUNNY", "FLOOR", "GREEN", "HELLO", "DADDY", "HOBBY", "SILLY", "BERRY"
+        "FUNNY", "FLOOR", "GREEN", "HELLO", "DADDY", "HOBBY", "SILLY", "BERRY", "SMILE",
+        "WATER", "HOUSE", "MOUSE", "TRAIN", "MUSIC", "PAPER", "MONEY", "SLEEP", "DREAM",
+        "RIVER", "EARTH", "CLOUD", "SWEET", "SUGAR", "SHARK", "HORSE", "TRUCK", "BEACH",
+        "GLASS", "HEART", "BRAIN"
     ],
     GENERAL: [
         "PERRO", "GATOS", "TIGRE", "CEBRA", "MOSCA", "PANDA", "PULPO", "GALLO", "CISNE",
@@ -112,7 +118,13 @@ const wordSets = {
         "APPLE", "BREAD", "BACON", "DRINK", "SALAD", "GRAPE", "TIGER", "WHALE", "SNAKE",
         "SHEEP", "EAGLE", "WRITE", "SPEAK", "LAUGH", "DANCE", "LEARN", "CHAIR", "TABLE",
         "PHONE", "CLOCK", "LIGHT", "NOTES", "STONE", "STORY", "PARTY", "LUCKY", "CANDY",
-        "FUNNY", "FLOOR", "GREEN", "HELLO", "DADDY", "HOBBY", "SILLY", "BERRY"
+        "FUNNY", "FLOOR", "GREEN", "HELLO", "DADDY", "HOBBY", "SILLY", "BERRY", "TAPIR", 
+        "CARPA", "TUCAN", "GECKO", "PULGA", "PIOJO", "SIMIO", "POTRO", "YEGUA", "LEONA",
+        "TUNEZ", "GALES", "MACAO", "DAKAR", "KABUL", "MILAN", "JAIME", "SIMON", "LUISA",
+        "JULIA", "ELIAS", "CESAR", "ROCIO", "SONIA", "AARON", "LLORA", "CAZAR", "SUDAR", 
+        "SUMAR", "CORTA", "PEINA", "SMILE", "WATER", "HOUSE", "MOUSE", "TRAIN", "MUSIC", 
+        "PAPER", "MONEY", "SLEEP", "DREAM", "RIVER", "EARTH", "CLOUD", "SWEET", "SUGAR", 
+        "SHARK", "HORSE", "TRUCK", "BEACH", "GLASS", "HEART", "BRAIN"
     ]
 };
 
